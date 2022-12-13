@@ -1,0 +1,143 @@
+@import 'reset';
+@import 'animate.min';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poiret+One&display=swap');
+/*********variables********/
+$lightblue:rgb(74,229,255);
+$darkblue:rgb(16,155,179);
+$orange:rgb(255,154,74);
+$lightorange:rgb(255,169,99);
+$darkorange:rgb(179,99,34);
+$grey:rgb(114,107,101);
+$white:rgb(255,255,255);
+$black:rgb(0,0,0);
+$sizeheading1:1em;
+$heading2:'Poiret One', sans-serif;
+$heading1:'Noto Serif', serif;
+$body:'Raleway',sans-serif;
+
+/**********fonts*******/
+@font-face{
+    font-family: 'Poiret One', cursive;
+    font-weight:700;
+}
+@font-face{
+    font-family:'Quattrocento Sans', sans-serif;
+    src:url('https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap');
+    font-weight:600;
+    font-style:normal;
+}
+@font-face{
+    font-family:'Candal', sans-serif;
+    src:url('https://fonts.googleapis.com/css?family=Candal&display=swap');
+    font-weight:400;
+    font-style:normal;
+}   
+   @font-face{
+    font-family:'Raleway', sans-serif;
+    src:url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+    font-weight:400;
+    font-style:normal;
+}   
+@font-face{
+    font-family: 'Noto Serif', serif;
+    src:url(https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poiret+One&display=swap);
+    font-weight:600;
+}
+    
+    
+    
+#wrapper{
+    margin-left:20%;
+    margin-right:20%;
+}
+header{
+    background-color:$darkblue;
+    border-bottom: solid 4px $orange;
+}
+
+h1{
+    font-family:$heading1;
+    text-align: center;
+    font-size:2em;
+    padding:2%;
+    font-weight: 600;
+}
+h2{
+     font-family:$heading1;
+    text-align: center;
+    font-size:1em;
+    padding-bottom:2%;
+} 
+h3{
+    padding-left:2%;
+    font-size:2vw;
+    padding-bottom:2%;
+}
+    
+    /**********body**********/
+main{
+   
+}
+
+main p {
+   padding-left:20%;
+    padding-bottom:2%;
+    font-family:$body;
+    padding-right:10%;
+    padding-top:1%;
+    font-size:1em;
+    
+    
+}
+    h4 {
+        font-family:$heading2;
+        font-size:2em;
+        border-bottom: solid 4px $orange;
+        margin-left:10%;
+        font-weight:bold;
+        
+        }
+#video{
+    margin-left:30%;
+}
+.responsive {
+        height: 400px;
+        width: 100%;
+        max-width: 800px;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:2%;
+    }
+#pull p{
+    font-size:2em;
+    background-color:$darkblue;
+    color:$white;
+    padding:2%;
+    margin-left:10%;
+    margin-right:10%;
+}
+footer{
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    background-color:$orange;
+    color:$black;
+    padding:2%;
+}
+footer p{
+    font-size:1em;
+}
+/******media*******/
+@media (min-height: 414px){
+ p{
+   padding-left:5%;
+    padding-right:none;
+       font-size:2em;
+
+}
+   
+}
+@media (max-height: 1040px){
+  
+}
